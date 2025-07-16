@@ -57,7 +57,7 @@ const Projects = () => {
               </span>
             </div>
             <div>
-              <a href="#" className="text-decoration-none text-white me-5">
+              <a href="https://shopping-site-frontend-ivory.vercel.app/" className="text-decoration-none text-white me-5">
                 <img
                   src="https://cdn.hugeicons.com/icons/view-stroke-sharp.svg"
                   style={{ filter: "invert(1)" }}
@@ -66,7 +66,7 @@ const Projects = () => {
                 />{" "}
                 Demo
               </a>
-              <a href="#" className="text-decoration-none text-white me-5">
+              <a href="https://github.com/sahaarnav3/shopping-site-frontend" className="text-decoration-none text-white me-5">
                 <img
                   src="https://cdn.hugeicons.com/icons/source-code-solid-rounded.svg"
                   style={{ filter: "invert(1)" }}
@@ -123,7 +123,7 @@ const Projects = () => {
               </span>
             </div>
             <div>
-              <a href="#" className="text-decoration-none text-white me-5">
+              <a href="https://anvaya-frontend-nine.vercel.app/" className="text-decoration-none text-white me-5">
                 <img
                   src="https://cdn.hugeicons.com/icons/view-stroke-sharp.svg"
                   style={{ filter: "invert(1)" }}
@@ -132,7 +132,7 @@ const Projects = () => {
                 />{" "}
                 Demo
               </a>
-              <a href="#" className="text-decoration-none text-white me-5">
+              <a href="https://github.com/sahaarnav3/anvaya-frontend" className="text-decoration-none text-white me-5">
                 <img
                   src="https://cdn.hugeicons.com/icons/source-code-solid-rounded.svg"
                   style={{ filter: "invert(1)" }}

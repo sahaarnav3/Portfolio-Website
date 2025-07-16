@@ -5,6 +5,7 @@ const TechStack = () => {
   return (
     <section
       className="container bg-black text-white "
+      id="contact"
       style={{
         border: "1px solid black",
         position: "relative",
@@ -40,7 +41,7 @@ const TechStack = () => {
             <p className="text-white-50 fs-5 ps-4 pb-4">sahaarnav3@gmail.com</p>
           </div>
         </div>
-        <div className="col-6 col-md-6 mb-2">
+        <a href="https://github.com/sahaarnav3" className="col-6 col-md-6 mb-2 text-decoration-none">
           <div
             className="rounded"
             id="card"
@@ -58,12 +59,12 @@ const TechStack = () => {
                     "invert(42%) sepia(23%) saturate(1253%) hue-rotate(100deg) brightness(95%) contrast(94%)",
                 }}
               />
-              <h3 className="m-0">Github</h3>
+              <h3 className="m-0 text-white">Github</h3>
             </div>
             <p className="text-white-50 fs-5 ps-4 pb-4">Follow on GitHub</p>
           </div>
-        </div>
-        <div className="col-6 col-md-6 mb-2">
+        </a>
+        <a href="https://www.linkedin.com/in/sahaarnav3/" className="col-6 col-md-6 mb-2 text-decoration-none">
           <div
             className="rounded"
             id="card"
@@ -81,12 +82,12 @@ const TechStack = () => {
                     "invert(42%) sepia(23%) saturate(1253%) hue-rotate(100deg) brightness(95%) contrast(94%)",
                 }}
               />
-              <h3 className="m-0">LinkedIn</h3>
+              <h3 className="m-0 text-white">LinkedIn</h3>
             </div>
             <p className="text-white-50 fs-5 ps-4 pb-4">Connect On LinkedIn</p>
           </div>
-        </div>
-        <div className="col-6 col-md-6 mb-2">
+        </a>
+        <a href="https://x.com/sahaarnav3" className="col-6 col-md-6 mb-2 text-decoration-none">
           <div
             className="rounded"
             id="card"
@@ -104,11 +105,11 @@ const TechStack = () => {
                     "invert(42%) sepia(23%) saturate(1253%) hue-rotate(100deg) brightness(95%) contrast(94%)",
                 }}
               />
-              <h3 className="m-0">Twitter</h3>
+              <h3 className="m-0 text-white">Twitter</h3>
             </div>
             <p className="text-white-50 fs-5 ps-4 pb-4">Follow on Twitter</p>
           </div>
-        </div>
+        </a>
         
       </div>
     </section>
