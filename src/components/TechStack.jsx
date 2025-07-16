@@ -73,7 +73,7 @@ const TechStack = () => {
           <p className="fs-4 m-0 col-md-10">DevTools</p>
         </div>
         <div className="col-md-3 col-6 p-0 m-0 py-4 row align-items-center " >
-          <img src="https://www.svgrepo.com/show/488743/accessibility-alt.svg" alt="Logo Nodejs SVG File" width="35" height="35" className="col-sm-2" style={{filter: "invert(1)"}} />
+          <img src="https://www.svgrepo.com/show/372155/accessibility-1.svg" alt="Logo Nodejs SVG File" width="35" height="35" className="col-sm-2" style={{filter: "invert(1)"}} />
           <p className="fs-4 m-0 col-md-10">Accessibility</p>
         </div>
         <div className="col-md-3 col-6 p-0 m-0 py-4 row align-items-center " >
