@@ -172,7 +172,7 @@ const Projects = () => {
               <strong>Meet Up</strong>
             </h3>
             <p className="card-text text-white-50">
-              An event web app built with the MERN stack. Users can browse upcoming events on
+              An event web app where users can browse upcoming events on
               the landing page, search by title, filter by online/offline, and
               view detailed event.
             </p>
