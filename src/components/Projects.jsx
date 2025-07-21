@@ -1,5 +1,5 @@
 import React from "react";
-import './styles.css'
+import "./styles.css";
 
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
       <span className="border-bottom px-5 border-success border-4"></span>
       <div className="row my-5 justify-content-between">
         <div
-          className="card col-sm-3 p-0 text-white"
+          className="card col-sm-3 p-0 mb-4 text-white"
           style={{ width: "26.7rem", background: "#0a0a0a" }}
           id="card"
         >
@@ -57,7 +57,10 @@ const Projects = () => {
               </span>
             </div>
             <div>
-              <a href="https://shopping-site-frontend-ivory.vercel.app/" className="text-decoration-none text-white me-5">
+              <a
+                href="https://shopping-site-frontend-ivory.vercel.app/"
+                className="text-decoration-none text-white me-5"
+              >
                 <img
                   src="https://cdn.hugeicons.com/icons/view-stroke-sharp.svg"
                   style={{ filter: "invert(1)" }}
@@ -66,7 +69,10 @@ const Projects = () => {
                 />{" "}
                 Demo
               </a>
-              <a href="https://github.com/sahaarnav3/shopping-site-frontend" className="text-decoration-none text-white me-5">
+              <a
+                href="https://github.com/sahaarnav3/shopping-site-frontend"
+                className="text-decoration-none text-white me-5"
+              >
                 <img
                   src="https://cdn.hugeicons.com/icons/source-code-solid-rounded.svg"
                   style={{ filter: "invert(1)" }}
@@ -79,7 +85,7 @@ const Projects = () => {
           </div>
         </div>
         <div
-          className="card col-sm-3 p-0 text-white"
+          className="card col-sm-3 p-0 mb-4 text-white"
           style={{ width: "26.7rem", background: "#0a0a0a" }}
           id="card"
         >
@@ -93,7 +99,8 @@ const Projects = () => {
               <strong>Anvaya</strong>
             </h3>
             <p className="card-text text-white-50">
-              An intuitive CRM system designed for lead management with pipeline visualization, automated follow-ups, and detailed analytics.
+              An intuitive CRM system designed for lead management with pipeline
+              visualization, automated follow-ups, and detailed analytics.
             </p>
             <div className="mb-4">
               <span
@@ -123,7 +130,10 @@ const Projects = () => {
               </span>
             </div>
             <div>
-              <a href="https://anvaya-frontend-nine.vercel.app/" className="text-decoration-none text-white me-5">
+              <a
+                href="https://anvaya-frontend-nine.vercel.app/"
+                className="text-decoration-none text-white me-5"
+              >
                 <img
                   src="https://cdn.hugeicons.com/icons/view-stroke-sharp.svg"
                   style={{ filter: "invert(1)" }}
@@ -132,7 +142,10 @@ const Projects = () => {
                 />{" "}
                 Demo
               </a>
-              <a href="https://github.com/sahaarnav3/anvaya-frontend" className="text-decoration-none text-white me-5">
+              <a
+                href="https://github.com/sahaarnav3/anvaya-frontend"
+                className="text-decoration-none text-white me-5"
+              >
                 <img
                   src="https://cdn.hugeicons.com/icons/source-code-solid-rounded.svg"
                   style={{ filter: "invert(1)" }}
@@ -145,7 +158,75 @@ const Projects = () => {
           </div>
         </div>
         <div
-          className="card col-sm-3 p-0 text-white"
+          className="card col-sm-3 p-0 mb-4 text-white"
+          style={{ width: "26.7rem", background: "#0a0a0a" }}
+          id="card"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1611926653458-09294b3142bf"
+            className="card-img-top img-fluid"
+            alt="proj-img"
+          />
+          <div className="card-body px-4">
+            <h3 className="card-title">
+              <strong>Meet Up</strong>
+            </h3>
+            <p className="card-text text-white-50">
+              An event web app built with the MERN stack. Users can browse upcoming events on
+              the landing page, search by title, filter by online/offline, and
+              view detailed event.
+            </p>
+            <div className="mb-4">
+              <span
+                className="me-2 px-3 py-1 rounded-2"
+                style={{ background: "#212529", fontSize: "12px" }}
+              >
+                <strong>React</strong>
+              </span>
+              <span
+                className="me-2 px-3 py-1 rounded-2"
+                style={{ background: "#212529", fontSize: "12px" }}
+              >
+                {" "}
+                <strong>Node.js</strong>{" "}
+              </span>
+              <span
+                className="me-2 px-3 py-1 rounded-2"
+                style={{ background: "#212529", fontSize: "12px" }}
+              >
+                <strong>MongoDB</strong>
+              </span>
+              <span
+                className="me-2 px-3 py-1 rounded-2"
+                style={{ background: "#212529", fontSize: "12px" }}
+              >
+                <strong>Chart.js</strong>
+              </span>
+            </div>
+            <div>
+              <a href="https://meet-up-app-front-end.vercel.app/" className="text-decoration-none text-white me-5">
+                <img
+                  src="https://cdn.hugeicons.com/icons/view-stroke-sharp.svg"
+                  style={{ filter: "invert(1)" }}
+                  alt="ico"
+                  className="img-fluid"
+                />{" "}
+                Demo
+              </a>
+              <a href="https://github.com/sahaarnav3/MeetUp_App-Front_End" className="text-decoration-none text-white me-5">
+                <img
+                  src="https://cdn.hugeicons.com/icons/source-code-solid-rounded.svg"
+                  style={{ filter: "invert(1)" }}
+                  alt="ico"
+                  className="img-fluid"
+                />{" "}
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card col-sm-3 p-0 mb-4 text-white"
           style={{ width: "26.7rem", background: "#0a0a0a" }}
           id="card"
         >
@@ -159,7 +240,8 @@ const Projects = () => {
               <strong>Mitra</strong>
             </h3>
             <p className="card-text text-white-50">
-              A collaborative project management tool inspired by Asana, featuring kanban boards, timeline views, and automated workflow.
+              A collaborative project management tool inspired by Asana,
+              featuring kanban boards, timeline views, and automated workflow.
             </p>
             <div className="mb-4">
               <span
