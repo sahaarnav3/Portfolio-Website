@@ -4,6 +4,7 @@ const Hero = () => {
   return (
     <section
       className="container bg-black text-white mb-5"
+      id="about"
       style={{
         height: "70vh",
         border: "1px solid black",
@@ -12,7 +13,7 @@ const Hero = () => {
       }}
     >
       <h1 className="mt-5 pt-5 display-1 fw-semibold">Arnav Saha</h1>
-      <p className="text-white-50 fs-2 mb-0">full stack dev</p>
+      <p className="text-white-50 fs-2 mb-0">Full Stack Developer</p>
       <span className="border-bottom px-5 border-success border-4"></span>
       <p
         className="mt-4"

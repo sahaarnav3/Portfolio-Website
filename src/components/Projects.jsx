@@ -10,13 +10,14 @@ const Projects = () => {
         position: "relative",
         top: "0px",
       }}
+      id="projects"
     >
       <h1 className="mt-5 pt-5 display-4 fw-semibold">Projects</h1>
       <p className="text-white-50 fs-4 mb-0">
         Building solutions that solve real-world problems
       </p>
       <span className="border-bottom px-5 border-success border-4"></span>
-      <div className="row my-5 justify-content-between">
+      <div className="row my-5 pt-4 justify-content-between">
         <div
           className="card col-sm-3 p-0 mb-4 text-white"
           style={{ width: "26.7rem", background: "#0a0a0a" }}
@@ -59,6 +60,7 @@ const Projects = () => {
             <div>
               <a
                 href="https://shopping-site-frontend-ivory.vercel.app/"
+                target="_blank"
                 className="text-decoration-none text-white me-5"
               >
                 <img
@@ -71,6 +73,7 @@ const Projects = () => {
               </a>
               <a
                 href="https://github.com/sahaarnav3/shopping-site-frontend"
+                target="_blank"
                 className="text-decoration-none text-white me-5"
               >
                 <img
@@ -132,6 +135,7 @@ const Projects = () => {
             <div>
               <a
                 href="https://anvaya-frontend-nine.vercel.app/"
+                target="_blank"
                 className="text-decoration-none text-white me-5"
               >
                 <img
@@ -144,6 +148,7 @@ const Projects = () => {
               </a>
               <a
                 href="https://github.com/sahaarnav3/anvaya-frontend"
+                target="_blank"
                 className="text-decoration-none text-white me-5"
               >
                 <img
@@ -172,9 +177,9 @@ const Projects = () => {
               <strong>Meet Up</strong>
             </h3>
             <p className="card-text text-white-50">
-              An event web app where users can browse upcoming events on
-              the landing page, search by title, filter by online/offline, and
-              view detailed event.
+              An event web app where users can browse upcoming events on the
+              landing page, search by title, filter by online/offline, and view
+              detailed event.
             </p>
             <div className="mb-4">
               <span
@@ -204,7 +209,11 @@ const Projects = () => {
               </span>
             </div>
             <div>
-              <a href="https://meet-up-app-front-end.vercel.app/" className="text-decoration-none text-white me-5">
+              <a
+                href="https://meet-up-app-front-end.vercel.app/"
+                target="_blank"
+                className="text-decoration-none text-white me-5"
+              >
                 <img
                   src="https://cdn.hugeicons.com/icons/view-stroke-sharp.svg"
                   style={{ filter: "invert(1)" }}
@@ -213,7 +222,11 @@ const Projects = () => {
                 />{" "}
                 Demo
               </a>
-              <a href="https://github.com/sahaarnav3/MeetUp_App-Front_End" className="text-decoration-none text-white me-5">
+              <a
+                href="https://github.com/sahaarnav3/MeetUp_App-Front_End"
+                target="_blank"
+                className="text-decoration-none text-white me-5"
+              >
                 <img
                   src="https://cdn.hugeicons.com/icons/source-code-solid-rounded.svg"
                   style={{ filter: "invert(1)" }}
@@ -237,11 +250,13 @@ const Projects = () => {
           />
           <div className="card-body px-4">
             <h3 className="card-title">
-              <strong>Mitra</strong>
+              <strong>Workasana</strong>
             </h3>
             <p className="card-text text-white-50">
-              A collaborative project management tool inspired by Asana,
-              featuring kanban boards, timeline views, and automated workflow.
+              Workasana is a task management and team collaboration tool where
+              users can create projects, assign tasks to teams and owners, set
+              deadlines, and organize work using tags. It supports
+              authentication, dynamic filtering.
             </p>
             <div className="mb-4">
               <span
@@ -271,7 +286,7 @@ const Projects = () => {
               </span>
             </div>
             <div>
-              <a href="#" className="text-decoration-none text-white me-5">
+              <a href="#" target="_blank" className="text-decoration-none text-white me-5">
                 <img
                   src="https://cdn.hugeicons.com/icons/view-stroke-sharp.svg"
                   style={{ filter: "invert(1)" }}
@@ -280,7 +295,7 @@ const Projects = () => {
                 />{" "}
                 Demo
               </a>
-              <a href="#" className="text-decoration-none text-white me-5">
+              <a href="#" target="_blank" className="text-decoration-none text-white me-5">
                 <img
                   src="https://cdn.hugeicons.com/icons/source-code-solid-rounded.svg"
                   style={{ filter: "invert(1)" }}
