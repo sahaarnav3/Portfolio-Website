@@ -40,7 +40,7 @@ const Hero = () => {
       </p>
       <div className="mt-4">
         <a href="#contact" className="btn btn-success px-4 me-3" >Contact Me</a>
-        <a className="btn btn-outline-secondary px-4" >Resume</a>
+        <a className="btn btn-outline-secondary px-4" href="https://drive.google.com/file/d/1iVg9ecc5wVs4Tl6ZZbJLVT6gangsWcUV/view?usp=sharing" target="_blank">Resume</a>
       </div>
     </section>
   );
