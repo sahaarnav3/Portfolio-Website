@@ -18,7 +18,7 @@ const TechStack = () => {
       </p>
       <span className="border-bottom px-5 border-success border-4"></span>
       <div className="row my-5">
-        <div className="col-6 col-md-6 mb-2">
+        <div className="col-12 col-md-6 mb-2">
           <div
             className="rounded"
             id="card"
@@ -41,7 +41,7 @@ const TechStack = () => {
             <p className="text-white-50 fs-5 ps-4 pb-4">sahaarnav3@gmail.com</p>
           </div>
         </div>
-        <a href="https://github.com/sahaarnav3" target="_blank" className="col-6 col-md-6 mb-2 text-decoration-none">
+        <a href="https://github.com/sahaarnav3" target="_blank" className="col-12 col-md-6 mb-2 text-decoration-none">
           <div
             className="rounded"
             id="card"
@@ -64,7 +64,7 @@ const TechStack = () => {
             <p className="text-white-50 fs-5 ps-4 pb-4">Follow on GitHub</p>
           </div>
         </a>
-        <a href="https://www.linkedin.com/in/sahaarnav3/" target="_blank" className="col-6 col-md-6 mb-2 text-decoration-none">
+        <a href="https://www.linkedin.com/in/sahaarnav3/" target="_blank" className="col-12 col-md-6 mb-2 text-decoration-none">
           <div
             className="rounded"
             id="card"
@@ -87,7 +87,7 @@ const TechStack = () => {
             <p className="text-white-50 fs-5 ps-4 pb-4">Connect On LinkedIn</p>
           </div>
         </a>
-        <a href="https://x.com/sahaarnav3" target="_blank" className="col-6 col-md-6 mb-2 text-decoration-none">
+        <a href="https://x.com/sahaarnav3" target="_blank" className="col-12 col-md-6 mb-2 text-decoration-none">
           <div
             className="rounded"
             id="card"

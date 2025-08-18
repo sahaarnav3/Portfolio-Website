@@ -18,7 +18,7 @@ const Hero = () => {
       <p
         className="mt-4"
         style={{
-          width: "35em",
+          width: "64%",
           fontSize: "1.3rem",
           fontWeight: "300",
           color: "#dbdfe3",
@@ -30,7 +30,7 @@ const Hero = () => {
       <p
         className=""
         style={{
-          width: "35em",
+          width: "64%",
           fontSize: "1.3rem",
           fontWeight: "300",
           color: "#dbdfe3",

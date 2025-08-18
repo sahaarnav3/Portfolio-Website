@@ -8,7 +8,8 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <main className='bg-black' style={{minHeight: "100vh"}}>
+    <main className='bg-black' style={{minHeight: "100vh", minWidth: "400px"}}>
+      {/*   */}
       <Navbar />
       <Hero />
       <Projects />
