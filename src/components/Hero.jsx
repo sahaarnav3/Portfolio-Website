@@ -6,10 +6,11 @@ const Hero = () => {
       className="container bg-black text-white mb-5"
       id="about"
       style={{
-        height: "70vh",
+        // height: "70vh",
         border: "1px solid black",
         position: "relative",
-        top: "100px",
+        // top: "100px",
+        paddingTop: "100px"
       }}
     >
       <h1 className="mt-5 pt-5 display-1 fw-semibold">Arnav Saha</h1>
